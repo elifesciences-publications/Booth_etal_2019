@@ -24,6 +24,15 @@ An overview of the data flow:
 
 (7. make.transparent.R is only used for aesthetics)
 
+8. "pre_processing_DEGs.R" 
+	Reads in RNA-seq DEG list and output those with an FDR<0.05 that are upregulated per condition
+	
+9. "get_DEG_promoters.R" 
+	Uses the DEG lists from "pre_processing_DEGs.R" and outputs a bed file for each containing the associated promoter (definied as +/- 300bp around the TSS).
+
+10. "intersect_CEH18_targets.R" 
+	Outputs a list of CEH-18 ChIP-seq peaks that are associated with different lists of DEGs as well as outputs a unique gene list containing the DEGs that have nearby CEH-18 ChIP-seq peaks
+
 
 Package and R Versions:
 R version 3.2.4
