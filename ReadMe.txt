@@ -1,4 +1,4 @@
-These scripts were used to analyze the RNA-seq data for the manuscript "Self-sperm promotes resistance to male-induced demise"
+These scripts were used to analyze the RNA-seq data for the manuscript "Self-sperm induce resistance to the detrimental effects of sexual encounters with males in hermaphroditic nematodes"
 
 A description of the naming scheme for the data:
 For each sample, there is a three position code that describes it. The first position is the genotype (N is WT N2 hermaphrodites, F is fem-1 feminized individuals). The second position is the age when the exposure to males occurred (day 3 or 7 of life). Note that the worms were collected for RNA-seq on the following day. The final position indicates their mating-status (U is for the individuals that never encountered males and M is for the individuals that successfully mated and received male sperm). For example: F3M are young feminized individuals that received male sperm following a brief interaction with males.
