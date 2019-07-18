@@ -1,3 +1,5 @@
+### This code is associated with the paper from Booth et al., "Self-sperm induce resistance to the detrimental effects of sexual encounters with males in hermaphroditic nematodes". eLife, 2019. http://dx.doi.org/10.7554/eLife.46418
+
 These scripts were used to analyze the RNA-seq data for the manuscript "Self-sperm induce resistance to the detrimental effects of sexual encounters with males in hermaphroditic nematodes"
 
 A description of the naming scheme for the data:
